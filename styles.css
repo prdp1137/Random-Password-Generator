@@ -1,4 +1,21 @@
+body {
+	/*height: 1000vh;*/
+}
+
 .nav-wrapper  {
     background-color:#1a89bd  !important;
     font-size: 14px;
+}
+
+.page-footer {
+	background-color:#1a89bd  !important;
+	bottom: 0;
+	position:fixed;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+div.main {/*
+	margin-top: 12vh; 
+	height: 100vh;*/
 }
