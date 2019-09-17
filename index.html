@@ -20,5 +20,43 @@
 			</div>
 		</div>
 	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="card card-panel hoverable">
+					<div class="card-content dark-text">
+						<span class="card-title">Password Generator</span>
+						<div class="divider"></div>
+						<form action="">
+							<p>
+								<label for="capital">Capital</label>
+								<input type="text" name = "capital" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ" disabled/>
+							</p>
+							<p>
+								<label for="small">Small</label>
+								<input type="text" name = "small" value="abcdefghijklmnopqrstuvwxyz" disabled/>
+							</p>
+							<p>
+								<label for="number">Number</label>
+								<input type="text" name = "number" value="1234567890" disabled />
+							</p>
+							<p>
+								<label for="chars">Special Chars</label>
+								<input type="text" name = "chars" value="!#$%&()*+,-./:;<=>?@[\]^_`{|}~" disabled />
+							</p>
+							<p>
+								<label for="length">Length</label>
+								<input class="with-gap" id="length" value="12" type="text" name="length" />
+							</p>
+						</form>	
+					</div>
+					<div class="card-action">
+						<a class="waves-effect waves-light btn" onclick="generate()">Generate</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
