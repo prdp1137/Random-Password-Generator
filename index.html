@@ -47,9 +47,13 @@
 							</p>
 							<p>
 								<label for="length">Length</label>
-								<input class="with-gap" id="length" value="12" type="text" name="length" />
+								<input id="length" value="12" type="text" name="length" />
 							</p>
 						</form>	
+						<p id="generatedPassword" style="display: none;">
+								<label for="password">Generated Password</label>
+								<input id="password" type="text" name="password"/>
+							</p>
 					</div>
 					<div class="card-action">
 						<a class="waves-effect waves-light btn" onclick="generate()">Generate</a>
