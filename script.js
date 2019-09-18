@@ -1,10 +1,10 @@
 function generate() {
 	var result = ''
-	capital = document.getElementsByName('capital')[0].value
-	small = document.getElementsByName('small')[0].value
-	number = document.getElementsByName('number')[0].value
-	chars = document.getElementsByName('chars')[0].value
-	characters = capital + small + number + chars
+	var capital = document.getElementsByName('capital')[0].value
+	var small = document.getElementsByName('small')[0].value
+	var number = document.getElementsByName('number')[0].value
+	var chars = document.getElementsByName('chars')[0].value
+	var characters = capital + small + number + chars
 	var charactersLength = characters.length;
 	length = document.getElementsByName('length')[0].value
 
