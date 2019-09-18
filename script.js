@@ -12,7 +12,8 @@ function generate() {
 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
 	}
 
-	document.getElementById('generatedPassword').setAttribute('style', "display:block;")
+	document.getElementById('generatedPassword').setAttribute('style', "display:block;");
+	
 	document.getElementById('password').setAttribute('value', result);
 }
 
@@ -20,4 +21,3 @@ function date() {
 	var d = new Date();
 	document.write(d.getFullYear())
 }
-
