@@ -7,6 +7,12 @@ function generate() {
 	var characters = capital + small + number + chars
 	var charactersLength = characters.length;
 	length = document.getElementsByName('length')[0].value
+	
+	if(length > 1000) {
+	
+		return;
+		
+	}
 
 	for ( var i = 0; i < length; i++ ) {
 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
