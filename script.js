@@ -1,5 +1,7 @@
 function generate() {
+
 	var result = ''
+
 	var capital = document.getElementsByName('capital')[0].value
 	var small = document.getElementsByName('small')[0].value
 	var number = document.getElementsByName('number')[0].value
@@ -17,10 +19,12 @@ function generate() {
 	for ( var i = 0; i < length; i++ ) {
 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
 	}
-
+	document.getElementsByClassName('page-footer')[0].setAttribute('style', "position:sticky;");
 	document.getElementById('generatedPassword').setAttribute('style', "display:block;");
-	
+
 	document.getElementById('password').setAttribute('value', result);
+
+
 }
 
 function date() {
